@@ -1,0 +1,1 @@
+gnome-terminal -- bash -c 'neofetch; played=0; for i in {30..1}; do for c in / - \\ \|; do if [ "$i" -eq 1 ] && [ "$played" -eq 0 ]; then canberra-gtk-play --file="/home/leon/.<system>/Neofetch/Cyber_neofetch_sound.ogg" & played=1; fi; printf "\r%c Closing in %d seconds..." "$c" "$i"; sleep 0.25; done; done; exit'
